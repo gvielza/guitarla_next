@@ -1,8 +1,9 @@
 import React from 'react';
 import  Head  from 'next/head';
 import Header from './Header';
+import Footer from './Footer';
 
-const Layaout = ({ children, pagina}) => {
+const Layout = ({ children, pagina}) => {
     return (
         <div>
             <Head>
@@ -11,8 +12,9 @@ const Layaout = ({ children, pagina}) => {
             </Head>
             <Header />
             {children}
+            <Footer/>
         </div>
     );
 };
 
-export default Layaout;
+export default Layout;
