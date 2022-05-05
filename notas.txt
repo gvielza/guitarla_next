@@ -1,0 +1,20 @@
+https://cloudinary.com/ **para subir imagenes gratis y sar backend con scrapy
+
+Obtener Datos
+En Next.js
+Next.js te ofrece3formas de obtener datos de una API
+getStaticProps-Obtener los datos cuando se crea el build
+getStaticPaths-Obtener el listado de páginas que se vanacrear
+cuando se realiza el build
+getServerSideProps-Los datos se obtienen en cada request
+
+Cuando utilizar
+StaticPropsyServerSideProps
+
+Utiliza StaticProps cuando la información no cambia en cada request:
+una página informativa, documentación, trámites, anuncios
+Utiliza ServerSideProps 
+
+cuando la información cambia de forma
+continua en cada requestodonde la página se actualizada cada poco
+tiempo
